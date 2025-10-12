@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/spa_background">
+
+    <ImageView
+        android:id="@+id/notificationIcon"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_notifications"
+        android:tint="#5D4037"
+        android:contentDescription="@string/notification_icon" />
+
+    <TextView
+        android:id="@+id/notificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#4E342E"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/notificationMessage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your therapist Sarah is ready in Room 3"
+        android:textColor="#3E2723"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/notificationMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t forget your 5% loyalty discount next visit!"
+        android:textColor="#3E2723"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nagomi Spa</string>
+    <string name="notification_icon">Notification Icon</string>
+    <string name="profile_image_desc">Profile picture of the user</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/spa_background">
+
+    <TextView
+        android:id="@+id/spaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nagomi Spa"
+        android:textSize="30sp"
+        android:textColor="#4E342E"
+        android:textStyle="bold"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:id="@+id/memberGamificationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Member Gamification"
+        android:backgroundTint="#795548"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bookSessionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book a Session"
+        android:backgroundTint="#A1887F"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
+
