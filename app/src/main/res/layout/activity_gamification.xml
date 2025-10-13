@@ -15,25 +15,25 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:text="Member Gamification"
-            android:textSize="26sp"
             android:textColor="#4E342E"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"/>
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:text="Bronze - Silver - Gold"
-            android:textSize="18sp"
             android:textColor="#4E342E"
-            android:layout_marginBottom="20dp"/>
+            android:textSize="18sp" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Redeem Reward"
             android:backgroundTint="#8D6E63"
-            android:textColor="#FFFFFF"/>
+            android:text="Redeem Reward"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 </ScrollView>
