@@ -21,27 +21,27 @@
         android:id="@+id/notificationTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Notifications"
+        android:textColor="#F2F1F1"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#4E342E"
-        android:layout_marginBottom="20dp" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/notificationMessage1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:text="Your therapist Sarah is ready in Room 3"
-        android:textColor="#3E2723"
-        android:textSize="16sp"
-        android:layout_marginBottom="10dp" />
+        android:textColor="#FDFCFB"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/notificationMessage2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Don’t forget your 5% loyalty discount next visit!"
-        android:textColor="#3E2723"
+        android:textColor="#FDF6F5"
         android:textSize="16sp" />
 
 </LinearLayout>

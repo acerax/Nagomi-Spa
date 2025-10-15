@@ -12,29 +12,29 @@
         android:id="@+id/bookingTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Booking Details"
+        android:textColor="#F6F4F4"
         android:textSize="26sp"
-        android:textColor="#4E342E"
-        android:textStyle="bold"
-        android:layout_marginBottom="20dp" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/serviceName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:text="Signature Massage"
-        android:textSize="20sp"
-        android:textColor="#3E2723"
-        android:layout_marginBottom="10dp" />
+        android:textColor="#F6F4F4"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/bookingTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Today 3:00 PM"
-        android:textSize="16sp"
-        android:textColor="#4E342E"
-        android:layout_marginBottom="20dp" />
+        android:textColor="#F6F4F4"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/joinWaitlistBtn"

@@ -18,18 +18,23 @@
 
     <TextView
         android:id="@+id/profileName"
-        android:text="Karen Santos"
+        android:layout_width="183dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="10dp"
+        android:text="Kendra Sophia"
+        android:textAlignment="center"
+        android:textColor="#F4F1F1"
         android:textSize="20sp"
-        android:textColor="#4E342E"
-        android:textStyle="bold"
-        android:layout_marginBottom="10dp" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/membershipType"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginBottom="30dp"
         android:text="Premium Member"
-        android:textColor="#6D4C41"
-        android:textSize="16sp"
-        android:layout_marginBottom="30dp" />
+        android:textColor="#F2EDEC"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/editProfileBtn"
