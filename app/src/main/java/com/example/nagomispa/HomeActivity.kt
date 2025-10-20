@@ -2,21 +2,18 @@ package com.example.nagomispa
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Button
 
-
-class MainActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_home)
 
-        val button = findViewById<Button>(R.id.loginButton)
+        val button = findViewById<Button>(R.id.memberGamificationBtn)
         button.setOnClickListener {
 
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, GamificationActivity::class.java)
             startActivity(intent)
 
         val button = findViewById<Button>(R.id.bookSessionBtn)
@@ -24,9 +21,14 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this, BookingActivity::class.java)
             startActivity(intent)
-        }
 
-        }
+            val button = findViewById<Button>(R.id.ProfileBtn)
+            button.setOnClickListener {
 
+                val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+            }
+        }
+        }
     }
 }
